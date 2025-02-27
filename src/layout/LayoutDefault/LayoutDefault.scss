@@ -63,3 +63,56 @@ $color-red: #f8615f;
         padding: 20px 0; 
     }
 }
+@media only screen and (max-width: 767.98px) {
+    .layout-default {
+        .container {
+            .logo {
+                display: none;
+            }
+            .menu {
+                ul {
+                    li{
+                        margin-right: 5px;
+                        padding: 10px 20px;
+                        @include display-flex();
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        transition: 0.3s;
+                    }
+                }
+            }
+            .accout {
+                a {
+                    text-decoration: none;
+                    margin-right: 5px;
+                    padding: 10px 15px;
+                    background-color: $color-red;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    color: $color-white;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 567.98px) {
+    .layout-default {
+        .container {
+            .menu {
+                ul {
+                    padding: 0;
+                    li {
+                        padding: 5px 10px;
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+            .accout {
+                a {
+                    padding: 5px 5px;
+                }
+            }
+        }
+    }
+}

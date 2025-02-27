@@ -63,7 +63,7 @@ function Quiz() {
                             ))}
                         </div>
                     ))}
-                    <button type="submit">Nộp bài</button>
+                    <button className="btn-submit" type="submit">Nộp bài</button>
                 </form>
             </div>
         </>

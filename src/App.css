@@ -1,3 +1,10 @@
 .text-center {
   text-align: center;
 }
+.btn-submit {
+  margin: 20px 0;
+}
+.home-ct {
+  display: flex;
+  flex-direction: column;
+}
