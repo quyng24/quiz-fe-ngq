@@ -1,0 +1,32 @@
+.answer {
+    &__item {
+        p {
+            font-weight: bold;
+            span.result__tag.result__tag--true {
+                background-color: #09f309;
+                padding: 5px 10px;
+                margin-left: 10px;
+                border-radius: 5px;
+                color: #fff;
+            }
+            span.result__tag.result_tag--false {
+                background-color: #f93b3b;
+                padding: 5px 10px;
+                margin-left: 10px;
+                border-radius: 5px;
+                color: #fff;
+            }
+        }
+        .result__item--selected {
+            color: #f93b3b;
+        }
+        .result__item--result {
+            color: #09f309;
+        }
+    }
+    .redo {
+        margin-top: 20px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+}
